@@ -1,0 +1,227 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(238, 240, 241, 0.774);
+}
+
+.mynavbar{
+    /* position: fixed; */
+    width: 100%;
+    height: 9vw;
+    background-color: rgb(248, 112, 62);
+}
+
+.first-line{
+    display: flex;
+    justify-content: right;
+    color: white;
+    gap: 1.5vw;
+    
+}
+
+.first-line p{
+    font-size: 1vw;
+    font-family: Tahoma;
+    margin-top: -0.19vw;
+}
+
+/* main */
+.mymain{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4vw;
+    justify-content: center;
+    gap: 1.5vw;
+}
+
+
+.mymain .logo{
+    margin-right: 3vw;
+}
+
+
+
+
+
+/* input field */
+.inputnbut{
+    display: flex;
+}
+
+
+.input{
+    height: auto;
+    padding: 0.89vw;
+    width: 45vw;
+    border: none;
+    font-size: 1vw;
+    color: rgb(158, 157, 157);
+}
+
+.inputnbut button{
+    font-size: 1.3vw;
+    padding: 0.599vw;
+    border: none;
+    color: rgb(248, 112, 62);
+    background-color: rgb(247, 212, 199);
+}
+
+.myicon i{
+    font-size: 2.2vw;
+}
+/* navabr end */
+
+
+
+/* body strt */
+.body{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.slinad{
+    display: flex;
+}
+
+
+.slider{
+    width: 80%;
+    margin-left: 9.5vw;
+}
+/* slider complete */
+
+/* product-main strt */
+.product-main .heading{
+    font-family: Arial;
+    margin-left: 9.3vw;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+
+
+/* bar-main strt */
+.bar-main{
+    width: 80%;
+    background-color: aquamarine;
+    margin-left: 9.3vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.bar-main p{
+    color: rgb(248, 112, 62);
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 1vw;
+}
+
+.bar-main button{
+    border: 1px solid rgb(248, 112, 62);
+    color: rgb(248, 112, 62);
+    background-color: transparent;
+    font-size: 1vw;
+    font-weight: bold;
+    height: 3vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+
+
+/* list ,main strt */
+.list-main{
+    display: flex;
+    width: 80%;
+    margin-left: 9.3vw;
+}
+
+.card-text{
+    font-size: 1.2vw;
+    width: auto;
+}
+
+
+.price{
+    color: rgb(248, 112, 62);
+}
+
+
+
+/* footer main strt */
+.footer-main{
+    background-color: white;
+    width: 100%;
+    /* background-color: aqua; */
+    height: 12vw;
+    margin-top: 8vw;
+    display: flex;
+}
+
+.main-one{
+    padding: 4vw;
+}
+
+
+.main-one h6{
+    font-size: 1.4vw;
+}
+
+
+.flags{
+    display: flex;
+    gap: 1.2vw;
+}
+
+
+.maha{
+    display: flex;
+    gap: 0.3vw;
+}
+
+
+.maha img{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+
+.maha p{
+    font-size: small;
+    margin-top: -0.5vw;
+    color: rgb(158, 157, 157);
+    font-size: 1.2vw;
+}
+
+
+/* main-two */
+.main-two{
+    margin-left: 5vw;
+}
+
+
+.sm{
+    display: flex;
+}
+
+.sm{
+    font-size: 2vw;
+    gap: 0.6vw;
+    margin-top: -6vw;
+    margin-left: 2vw;
+}
+
+
+.follow p{
+    padding: 4vw;
+}
+
+
+.main-three{
+    font-size: 1vw;
+    /* padding: 4vw; */
+    margin-left: 18vw;
+    margin-top: 5vw;
+}
